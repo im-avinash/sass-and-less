@@ -1,0 +1,56 @@
+h1 {
+  font-size: 54px;
+  color: white;
+  padding: 10px 15px;
+  border: solid 2px #1a1a1a;
+  background-color: green;
+  font-weight: 1000;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20px;
+  background-color: gray;
+}
+
+header h1 {
+  border-radius: 10px;
+  background-color: gray;
+  font-size: 54px;
+  color: white;
+  padding: 10px 15px;
+  border: solid 2px #1a1a1a;
+  background-color: green;
+  font-weight: 1000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body h2 {
+  font-size: 58px;
+  color: white;
+  padding: 10px 15px;
+  border: solid 2px #1a1a1a;
+  background-color: green;
+  font-weight: 1000;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  background-color: gray;
+}
+body h3 {
+  font-size: 42px;
+  color: white;
+  padding: 10px 15px;
+  border: solid 2px #1a1a1a;
+  background-color: green;
+  font-weight: 1000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p {
+  font-size: 18px;
+  color: white;
+  padding: 10px 15px;
+  border: solid 2px #1a1a1a;
+  background-color: green;
+  font-weight: 1000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=myfile.css.map */

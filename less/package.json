@@ -1,0 +1,14 @@
+{
+  "name": "less",
+  "version": "1.0.0",
+  "description": "",
+  "main": "less.js",
+  "scripts": {
+    "compile:sass":"sass style.scss myfile.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.25.0"
+  }
+}

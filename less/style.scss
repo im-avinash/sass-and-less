@@ -1,0 +1,49 @@
+@import "sass";
+$col:green;
+$col2:black;
+$pad: 10px;
+@mixin common{
+    color: white;
+    padding:$pad $pad+5;
+    border: solid 2px lighten($col2,10%);
+    background-color: $col;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@mixin bor-rad($rad:10px){
+    border-radius:$rad;
+    background-color: $col3;
+}
+h1{
+    font-size: 54px;
+    @include common;
+    @include bor-rad(20px);
+}
+
+header{
+    h1{
+        @include bor-rad;
+        font-size: 54px;
+        @include common;
+    }
+}
+body{
+    h2{
+        
+        font-size: 58px;
+        @include common;
+        @include bor-rad;
+    }
+    h3{
+        
+        font-size: 42px;
+        @include common;
+    }
+}
+footer{
+    p{
+        
+        font-size: 18px;
+        @include common;
+    }
+}
